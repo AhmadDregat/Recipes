@@ -3,9 +3,9 @@ body {
 }
 
 .recipesdetails {
-    grid-gap: 17px;
-    padding: 2px;
-    font-family: 'Patrick Hand', cursive;
+    grid-gap: 15px;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
