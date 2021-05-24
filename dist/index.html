@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Totally Real Site</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <div class="saerch">
+        <input type="text" id="ingredientinput" placeholder=" ingredient">
+        <button> Saerch!</button>
+    </div>
+
+    <div class="recipesdetails"></div>
+
+    <script id="recipestemplate" type="text/x-handlebars-template">
+        {{#each recipes}}
+        <div class="recipes">
+            <a href={{href}}>{{title}}</a><br>
+            <img src="{{thumbnail}}" class="image"><br> ingredients<br>
+            <ul>
+                {{#each ingredients}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+        {{/each}}
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js "></script>
+    <script src="./jquery/dist/jquery.js"></script>
+    <script src="Renderer.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>

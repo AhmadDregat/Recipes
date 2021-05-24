@@ -1,0 +1,17 @@
+body {
+    background-color: coral;
+}
+
+.recipesdetails {
+    grid-gap: 17px;
+    padding: 2px;
+    font-family: 'Patrick Hand', cursive;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+}

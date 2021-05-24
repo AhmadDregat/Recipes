@@ -7,8 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmaddregat/Recipes.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmaddregat/Recipes/issues"
+  },
+  "homepage": "https://github.com/ahmaddregat/Recipes#readme",
   "dependencies": {
     "express": "^4.17.1",
     "handlebars": "^4.7.7",
